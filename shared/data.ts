@@ -53,8 +53,8 @@ export const projects = [
     description: "A React app showcasing Indian heritage sites with user authentication and Google OAuth, using Appwrite for backend services.",
     technologies: ["React.js", "Appwrite", "Google Maps API"],
     image: "https://images.unsplash.com/photo-1576085898323-218337e3e43c",
-    githubLink: "https://github.com/",
-    liveLink: "#",
+    githubLink: "https://github.com/InsaneNitish/sankritisync",
+    liveLink: "https://insanenitish.github.io/sankritisync/",
     featured: true,
     category: "Featured"
   },
@@ -62,8 +62,8 @@ export const projects = [
     title: "Asteroid Data API",
     description: "Built a well-structured API with Node.js and Express.js for real-time asteroid data delivery for a hackathon project.",
     technologies: ["Node.js", "Express.js"],
-    image: "https://images.unsplash.com/photo-1518124880310-14716e0bc382",
-    githubLink: "https://github.com/",
+    image: "https://img.freepik.com/premium-photo/large-meteor-impact-planet-earth-generative-ai_438099-16529.jpg?uid=R187575113&ga=GA1.1.161557203.1738666346&semt=ais_hybrid",
+    githubLink: "https://github.com/InsaneNitish/api",
     liveLink: "#",
     featured: false,
     category: "API"
@@ -72,9 +72,9 @@ export const projects = [
     title: "Tic-Tac-Toe Game",
     description: "Created a fully functional Tic-Tac-Toe game with React.js, featuring an interactive front-end and engaging sound effects.",
     technologies: ["React.js"],
-    image: "https://images.unsplash.com/photo-1603383928972-2116518e3fb1",
-    githubLink: "https://github.com/",
-    liveLink: "#",
+    image: "https://cdn-icons-png.flaticon.com/512/10199/10199746.png",
+    githubLink: "https://github.com/InsaneNitish/Tic-Tac-Toe-new/",
+    liveLink: "https://insanenitish.github.io/Tic-Tac-Toe-new/",
     featured: false,
     category: "Game"
   },
@@ -83,8 +83,8 @@ export const projects = [
     description: "Developed during my internship at Dry-Code, this app provides real-time weather information with a clean user interface.",
     technologies: ["HTML", "CSS", "JavaScript", "Weather API"],
     image: "https://images.unsplash.com/photo-1601134467661-3d775b999c8b",
-    githubLink: "https://github.com/",
-    liveLink: "#",
+    githubLink: "https://github.com/InsaneNitish/Dry-Code-Intership-Projects-/tree/WeatherApp",
+    liveLink: "https://743249db-49e8-464a-b995-0b725e5beb72-00-117l3hr77nx3j.sisko.replit.dev/",
     featured: false,
     category: "Web App"
   }
