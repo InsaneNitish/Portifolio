@@ -60,7 +60,7 @@ const Projects = () => {
         
         <div className="mt-16 text-center animate-on-scroll">
           <a 
-            href="https://github.com/"
+            href="https://github.com/InsaneNitish"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-primary hover:bg-primary/90 text-white rounded-md transition-colors shadow-lg hover:shadow-xl"
