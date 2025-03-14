@@ -223,7 +223,7 @@ const Contact = () => {
                       <i className="fab fa-twitter"></i>
                     </a>
                     <a 
-                      href="https://instagram.com/" 
+                      href="https://instagram.com/insanenitish" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-10 h-10 bg-primary flex items-center justify-center rounded-full text-white hover:bg-accent transition-colors"

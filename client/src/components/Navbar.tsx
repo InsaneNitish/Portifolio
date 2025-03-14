@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { personalInfo } from "@shared/data";
+import resume from "../attached_assets/Nitish_Resume_compressed(1).pdf"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -95,7 +96,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="attached_assets\Nitish_Resume_compressed(1).pdf"
+            href={resume}
             download="Nitish_Resume.pdf"
             className="px-4 py-2 bg-accent text-white rounded-md hover:bg-accent/90 transition-colors"
           >

@@ -5,11 +5,11 @@ export const personalInfo = {
   phone: "+91-7876490511",
   location: "Delhi, India",
   bio: "I build engaging web experiences with a focus on both aesthetics and functionality. Based in Delhi, specializing in MERN stack development.",
-  profileImage: "https://github.com/InsaneNitish/Portifolio/blob/final/attached_assets/dp.png", // Replace with actual profile image URL
+  profileImage: "", // Replace with actual profile image URL
   socialLinks: {
     github: "https://github.com/InsaneNitish",
     linkedin: "https://linkedin.com/in/code-sane",
-    twitter: "https://twitter.com/",
+    twitter: "https://twitter.com/NitishTechYt",
   }
 };
 

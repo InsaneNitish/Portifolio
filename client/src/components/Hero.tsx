@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ChevronDown } from 'lucide-react';
 import { personalInfo } from '@shared/data';
+import img from "../attached_assets/dp.png"
 
 const Hero = () => {
   return (
@@ -101,7 +102,7 @@ const Hero = () => {
             />
             <div className="absolute inset-8 rounded-full overflow-hidden border-4 border-white shadow-xl">
               <img 
-                src={personalInfo.profileImage} 
+                src={img} 
                 alt="Nitish Thakur" 
                 className="w-full h-full object-cover"
               />
