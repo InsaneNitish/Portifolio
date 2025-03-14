@@ -1,14 +1,16 @@
 import { defineConfig } from "drizzle-kit";
+import * as dotenv from "dotenv";
 
-if (!process.env.DATABASE_URL) {
-  throw new Error("DATABASE_URL, ensure the database is provisioned");
-}
+// Explicitly load the .env file
+dotenv.config({ path: ".env" });
+
+
 
 export default defineConfig({
   out: "./migrations",
   schema: "./shared/schema.ts",
   dialect: "postgresql",
   dbCredentials: {
-    url: process.env.DATABASE_URL,
+    url: "postgresql://neondb_owner:npg_KwijyWGm2c7F@ep-shrill-grass-a5xj21pc.us-east-2.aws.neon.tech/portifolio_db?sslmode=require",
   },
 });
