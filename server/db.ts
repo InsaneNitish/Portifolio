@@ -1,5 +1,7 @@
 import { drizzle } from "drizzle-orm/node-postgres";
-import { Pool } from "pg";
+import pg from "pg";
+
+const { Pool } = pg;
 import * as schema from "@shared/schema"; // Import your schema
 
 // Ensure you have DATABASE_URL in your .env file
