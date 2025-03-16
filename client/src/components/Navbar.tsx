@@ -64,9 +64,8 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="/Nitish_Resume.pdf"
+            href="https://drive.google.com/file/d/15WnSrcH14OFY21LWU1p1PCOGwrmd3A9X/view?usp=sharing"
             target="_blank"
-            rel="noopener noreferrer"
             className="px-4 py-2 bg-accent text-white rounded-md hover:bg-accent/90 transition-colors"
           >
             Resume
@@ -96,8 +95,8 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href={resume}
-            download="Nitish_Resume.pdf"
+            href="https://drive.google.com/file/d/15WnSrcH14OFY21LWU1p1PCOGwrmd3A9X/view?usp=sharing"
+            target="_blank"
             className="px-4 py-2 bg-accent text-white rounded-md hover:bg-accent/90 transition-colors"
           >
             Resume
