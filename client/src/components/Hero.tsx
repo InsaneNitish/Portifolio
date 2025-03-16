@@ -6,7 +6,7 @@ import img from "../attached_assets/dp.png"
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden px-6 md:px-16">
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden px-6 md:px-16 py-24 md:py-0">
       {/* Background elements */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-primary/5"></div>
