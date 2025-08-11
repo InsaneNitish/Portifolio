@@ -14,8 +14,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       // Add timestamp
       const messageData = {
-        ...validatedData,
-        createdAt: new Date().toISOString(),
+        ...validatedData
       };
 
       // Store in NeonDB and return the inserted message
