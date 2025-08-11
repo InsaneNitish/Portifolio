@@ -18,7 +18,7 @@ export const education = [
     degree: "B.Sc.(Hons.) Computer Science",
     institution: "Keshav Mahavidyalaya (University of Delhi)",
     year: "2021-2025",
-    score: "8.5 CGPA (Till 4rd Semester)"
+    score: "8.36 CGPA (Till 6th Semester)"
   },
   {
     degree: "AISSCE (Science)",
