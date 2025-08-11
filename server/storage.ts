@@ -6,7 +6,7 @@ export interface IStorage {
   getUser(id: number): Promise<User | undefined>;
   getUserByUsername(username: string): Promise<User | undefined>;
   createUser(user: InsertUser): Promise<User>;
-  createMessage(message: InsertMessage & { createdAt: string }): Promise<Message>;
+  createMessage(message: InsertMessage & { createdAt: Date }): Promise<Message>;
 }
 
 export class DbStorage implements IStorage {
@@ -25,7 +25,7 @@ export class DbStorage implements IStorage {
     return user;
   }
 
-  async createMessage(messageData: InsertMessage & { createdAt: string }): Promise<Message> {
+  async createMessage(messageData: InsertMessage & { createdAt: Date }): Promise<Message> {
     const [message] = await db.insert(messages).values(messageData).returning();
     return message;
   }
